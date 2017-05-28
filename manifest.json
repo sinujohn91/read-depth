@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Read Depth",
+  "description": "This extension shows the read depth for a story",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "read-depth.png"
+  },
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
